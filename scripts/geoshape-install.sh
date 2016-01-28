@@ -38,7 +38,7 @@ echo GEOSHAPE_VERSION: ${GEOSHAPE_VERSION}
 apt-get install curl -y
 
 # install rvm
-gpg --keyserver hkp://keys.gnupg.net --recv-keys D39DC0E3
+gpg --keyserver hkp://pgp.mit.edu --recv-keys D39DC0E3
 curl -L https://get.rvm.io | bash -s stable
 
 # activate the correct rvm environment
